@@ -8,12 +8,17 @@ body {
     font-family: Roboto;
 }
 
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
 .menu {
     justify-content: space-around;
-    width: 100%;
     background-color: #FF6900;
     display: flex;
-    padding: 15px;
+   
+  
 }
 
 ul.list-style>li {
@@ -47,8 +52,7 @@ ul.list-style>li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 20px;
-
+    padding-top: 100px;
 }
 
 .pic {
@@ -109,6 +113,9 @@ img {
     background-color: #1A1A1A;
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
+    margin-top: 50px;
+    padding-bottom: 30px;
 }
 
 .info-sx{
