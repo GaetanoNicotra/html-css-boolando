@@ -35,20 +35,33 @@ ul.list-style>li {
 /*sezione main*/
 
 .conteiner-pics {
-    height: 800px;
     margin: 0 auto;
     max-width: 1100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
+
 }
 
 .pic {
     width: 33%;
+
 }
 
 img {
     max-width: 100%;
+}
+
+.red-txt {
+    color: red;
+    font-weight: bold;
+}
+
+.card {
     position: relative;
+}
+
+.red {
+    position: absolute;
 }
