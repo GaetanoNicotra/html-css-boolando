@@ -31,3 +31,21 @@ ul.list-style>li{
 .right{
     color: white;
 }
+
+/*sezione main*/
+
+.conteiner-pics{
+    height: 800px;
+    background-color: black;
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.pic{
+    width: 33%;
+    background-color: aquamarine;
+    border: solid black;
+}
