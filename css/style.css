@@ -79,13 +79,44 @@ img {
     top: 490px;
 }
 
-.green {
+.green-saldi {
+    padding: 3px 12px;
+    background-color: rgb(8, 146, 3);
     color: white;
-    background-color: green;
-    margin-left: 10px;
+    position: absolute;
+    top: 490px;
+    right: 188px;
 }
 
 .redtxt {
     color: white;
     background-color: red;
+}
+
+.love{
+    top: 490px;
+    right: 188px;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    background-color: white;
+    padding-left: 16px;
+    padding-right: 15px;
+    font-size: 45px;
+}
+
+.info{
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-sx{
+    color: white;
+    font-weight: bold;
+}
+
+.info-dx{
+    color: white;
+    font-weight: bold;
 }
